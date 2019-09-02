@@ -1,0 +1,53 @@
+/********************* Colour reference chart****************
+aah green:        #a8cd38
+aah light green:  #D2E89B
+aah grey:         #6d6d6d
+*/
+body {
+  font-family: 'Karla', sans-serif;
+  padding:150px 0px 0px 0px;
+  color: #6d6d6d;
+}
+
+footer {
+  padding: 50px 0px;
+}
+
+.content {
+  padding: 150px 0px;
+}
+
+.bg-aah {
+  background-color: #D2E89B;
+}
+
+.navbar {
+  padding: 0px 100px;
+}
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+    color: #6d6d6d;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #6d6d6d;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    border-bottom: 4px solid #6d6d6d;
+}
+
+.btn-aah {
+  background-color: #a8cd38;
+  color: #6d6d6d;
+}
+
+/* footer a, footer a:visited{
+  color: #a8cd38;
+} */
