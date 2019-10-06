@@ -4,9 +4,10 @@ aah light green:  #D2E89B
 aah grey:         #6d6d6d
 */
 body {
-  font-family: 'Karla', sans-serif;
-  padding:150px 0px 0px 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 165px 0px 0px;
   color: #6d6d6d;
+  background-color: #f5f5f5;
 }
 
 footer {
@@ -22,7 +23,6 @@ footer {
 }
 
 .navbar {
-  padding: 0px 100px;
 }
 
 .navbar-light .nav-item.active .nav-link,
@@ -34,13 +34,13 @@ footer {
 
 .navbar-light .navbar-nav .nav-link {
   color: #6d6d6d;
-  font-size: 20px;
+  font-size: 18px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
-    border-bottom: 4px solid #6d6d6d;
+    border-bottom: 3px solid #6d6d6d;
 }
 
 .btn-aah {
@@ -48,6 +48,78 @@ footer {
   color: #6d6d6d;
 }
 
-/* footer a, footer a:visited{
-  color: #a8cd38;
-} */
+#imageSlider {
+	margin-bottom: 30px;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+  height: 600px;
+}
+
+.indexSection {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.indexSection h2 {
+  padding-bottom: 2rem;
+}
+
+.indexSection p {
+  line-height: 2rem;
+  font-size: 18px;
+}
+
+indexSection article {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#indexGallery .row {
+  margin: 10px
+}
+
+#indexGallery .row img{
+  height: 300px;
+  width: auto;
+}
+
+.aah-button,
+.aah-button:hover,
+.aah-button:visited{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #D2E89B;
+  color: #6d6d6d;
+  font-size: 22px;
+}
+
+#indexPost .row img{
+  height: 250px;
+}
+
+#indexPost .row h5{
+  height: 100px;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+#indexPost .row p{
+  height: 250px;
+  overflow: auto;
+}
+
+a,
+a:hover,
+a:visited{
+  color: #6d6d6d;
+}
+
+footer h5{
+  padding-bottom: 2 rem;
+}

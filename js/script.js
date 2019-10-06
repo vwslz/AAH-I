@@ -1,3 +1,3 @@
-$('#login-btn').on('click', function (e) {
-  $('#loginModal').modal('toggle')
-});
+// $('#login-btn').on('click', function (e) {
+//   $('#loginModal').modal('toggle')
+// });

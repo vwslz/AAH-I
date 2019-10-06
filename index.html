@@ -3,10 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/b94f7d9384.js"></script>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
 
 	<link rel="stylesheet" href="css/style.css"/>
 
@@ -14,38 +14,31 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-light navbar-expand-sm bg-aah fixed-top">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+  <nav class="navbar flex-column navbar-expand-lg navbar-light bg-aah fixed-top">
+		<a class="navbar-brand ml-lg-2" href="index.html"><img src="img/logo-aah.png" class="rounded mx-auto d-block" height="100" width="140"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+    </button>
 
-      <a class="navbar-brand mr-4" href="index.html">
-        <img src="img/logo-aah.png" height="100" width="140">
-      </a>
-
-      <div class="collapse navbar-collapse" id="Navbar">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active px-2">
-            <a class="nav-link" href="index.html"><span class="fas fa-home"></span> Home</a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link" href="handcrafts.html"><span class="fas fa-shopping-cart"></span> Handcrafts</a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link" href="about.html"><span class="fas fa-info"></span> About</a>
-          </li>
-        </ul>
-
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" data-toggle="modal" href="#loginModal" id="login-btn"><span class="fas fa-sign-in"></span> Login</a></li>
-        </ul>
-      </div>
+    <div class="collapse navbar-collapse" id="Navbar">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="handcrafts.html">Story</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Donate</a>
+				</li>
+      </ul>
     </div>
-
-    <div><hr></div>
   </nav>
 
+<!--
   <div id="loginModal" class="modal fade" role="dialog" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="content">
       <div class="modal-content">
@@ -82,31 +75,224 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="container">
-    <div class="row row-content">
-      <div class="col">
-        <p>This is the frist line of this page</p>
+	<div id="imageSlider">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#indexImages" data-slide-to="0" class="active"></li>
+		    <li data-target="#indexImages" data-slide-to="1"></li>
+		    <li data-target="#indexImages" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="img/visit1.jpg" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/camp.png" alt="Second slide">
+		    </div>
+				<div class="carousel-item">
+		      <img class="d-block w-100" src="img/tobong.jpg" alt="Third slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+
+	<div class="indexSection container">
+		<div class="row align-items-center">
+			<div class="col col-md-8 offset-md-2 text-center">
+				<h2>Shop women's artifacts, help them to be self-reliant</h2>
+				<p>The quality artistic products are made by talented women, who were
+					displaced with war crisis in their home countries, in Kalobeyei and
+					Kakuma refugee camps in Northern part of Kenya. The products are
+					made from locally available materials that are environmental
+					friendly and with colors and design, an African theme of
+					togetherness which was the motto of the African leaders when
+					they attained independence in the early 1960s.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<p><hr/></p>
+	</div>
+
+	<div id="indexGallery" class="indexSection container">
+		<div class="row align-items-center">
+			<div class="col col-md-8 offset-md-2 text-center">
+				<h2>Exhibition of Products</h2>
+			</div>
+		</div>
+		<div class="row gallery">
+			<figure class="figure col-md-3">
+			  <img src="img/product-test-0.png" class="figure-img img-fluid rounded" alt="">
+			  <figcaption class="figure-caption text-center">Shopping Basket<br>$60</figcaption>
+			</figure>
+			<figure class="figure col-md-3">
+				<img src="img/product-test-1.png" class="figure-img img-fluid rounded" alt="">
+				<figcaption class="figure-caption text-center">Conical shaped Burundian basket<br>$ 100</figcaption>
+			</figure>
+			<figure class="figure col-md-3">
+				<img src="img/product-test-2.png" class="figure-img img-fluid rounded" alt="">
+				<figcaption class="figure-caption text-center">Ankara Bag<br>$ 50</figcaption>
+			</figure>
+			<figure class="figure col-md-3">
+				<img src="img/product-test-3.png" class="figure-img img-fluid rounded" alt="">
+				<figcaption class="figure-caption text-center">Ankara Bag<br>$ 50</figcaption>
+			</figure>
+		</div>
+		<div class="row justify-content-md-center">
+				<a href="handcrafts.html" class="aah-button">View All Products</a>
+		</div>
+	</div>
+
+	<div class="container">
+		<p><hr/></p>
+	</div>
+
+	<div id="indexPost" class="indexSection container text-center">
+		<div class="row align-items-center">
+			<div class="col-12 col-md-8 offset-md-2 text-center">
+				<h2>Related Articles</h2>
+			</div>
+		</div>
+		<div class="row">
+			<article class="col-12 col-md-4">
+				<img src="img/camp.png" class="figure-img img-fluid rounded" alt="">
+				<h5>Kakuma Refugee Camp and Kalobeyei Settlement</h5>
+				<p>Kakuma refugee camp is located in the North-western region of Kenya.
+					The camp was established in 1992 following the arrival of the “Lost Boys of Sudan”.
+					Kalobeyei Settlement is the expansion of the Kakuma refugee camp.</p>
+				<a href="https://www.unhcr.org/ke/kakuma-refugee-camp" class="aah-button">Read More</a>
+			</article>
+			<article class="col-12 col-md-4">
+				<img src="img/fashion-and-design.jpg" class="figure-img img-fluid rounded" alt="">
+				<h5>Fashion and Design Center</h5>
+				<p>The fashion and design centre is a AAH Kenya project that is part of
+					business support services for qualified artisans to build sustainable
+					livelihoods. The goal is to build the resilience of girls and women
+					from the refugee and host community, who are at risk of sexual and
+					gender-based violence in Kakuma, Turkana County.</p>
+				<a href="https://www.actionafricahelp.org/fashion-design-centre-launched-in-kakuma/" class="aah-button">Read More</a>
+			</article>
+			<article class="col col-md-4">
+				<img src="img/tobong.jpg" class="figure-img img-fluid rounded" alt="">
+				<h5>Tobong’u Lore cultural festival</h5>
+				<p>Women entrepreneurs supported by AAH Kenya’s Kakuma project are
+					among hundreds of exhibitors participating in this year’s cultural
+					festival popularly known as Tobong’u Lore (welcome back home) that
+					is taking place August 15-18 at Ekalees Cultural Centre in Lodwar town.
+				</p>
+				<a href="https://www.actionafricahelp.org/women-owned-crafts-businesses-reap-big-at-turkanas-2019-edition-of-tobongu-lore/" class="aah-button">Read More</a>
+			</article>
+		</div>
+	</div>
+
+	<div class="container">
+		<p><hr/></p>
+	</div>
+
+	<div class="indexSection container">
+		<div class="row align-items-center">
+			<div class="col-12 text-center">
+				<h2>Partners</h2>
+			</div>
+		</div>
+		<div class="row align-items-center">
+			<div class="col col-sm-2 offset-sm-1 text-center">
+				<img src="img/logo.png" class="img-responsive" alt="logo for ChinaHouse">
+			</div>
+      <div class="col-sm-7 offset-sm-1 d-none d-sm-block">
+        <p class="">
+					China house is a platform to help Chinese youth go global and
+					build their dreams, and a social enterprise dedicated to global
+					civic education. China house focus on "Chinese enterprises to go
+					out", wildlife protection, and community three topics such as
+					sustainable development, with the domestic and foreign academic
+					research institutions, international organizations, multinational
+					enterprise cooperation, provide research, study, practice, for
+					China's youth volunteer Project scheme, such as Learning
+					(Project-based Learning) and the international communication
+					opportunity, hope to cultivate a generation with international
+					vision, world citizen consciousness, the global competitiveness
+					of China's new youth, and through their action to help China's
+					integration into the global sustainable development.
+				</p>
       </div>
     </div>
-  </div>
+		<div class="row pt-4 pb-5 justify-content-center">
+			<a href="http://www.chinagoingout.org/" class="aah-button">Official Website</a>
+		</div>
+		<div class="row align-items-center">
+			<div class="col col-sm-2 offset-sm-1 text-center">
+				<img src="img/logo-aah.png" class="img-responsive" alt="logo for AAH-I">
+			</div>
+      <div class="col-sm-7 offset-sm-1 d-none d-sm-block">
+        <p class="">
+					AAH-I is an international
+					non-governmental organisation working with communities in
+					the Horn of Africa, and East and Southern Africa to sustainably
+					improve their quality of life. AAH-I has over 30 years'
+					experience working with communities, including refugees,
+					internally displaced people, host communities, pastoralists
+					and people living in urban informal settlements. AAH-I has
+					country programmes in South Sudan, Zambia, Uganda, Somalia,
+					Djibouti, Ethiopia and Kenya.
+				</p>
+			</div>
+    </div>
+		<div class="row p-4 justify-content-center">
+			<a href="https://www.actionafricahelp.org/" class="aah-button">Official Website</a>
+		</div>
+	</div>
 
   <footer class="footer bg-aah">
     <div class="container">
       <div class="row">
-        <div class="col-12 offset-1 col-sm-7">
-          <p>&copy; Copyright Action Africa Help International (AAH-I) <span>&#183;</span> ChinaGoingOut</p>
+				<div class="col-4 offset-1 col-sm-3">
+          <h5>RELATED LINKS</h5>
+          <ul class="list-unstyled pt-4">
+            <li><a href="https://www.actionafricahelp.org/">AAH-I</a></li>
+            <li><a href="http://www.chinagoingout.org/">China House</a></li>
+            <li><a href="https://www.unhcr.org/ke/kakuma-refugee-camp">Kakuma Cefugee camp</a></li>
+          </ul>
+        </div>
+				<div class="col-7 col-sm-4">
+          <h5>OTHER PROJECTS</h5>
+					<ul class="list-unstyled pt-4">
+            <li><a href="https://www.iafr.org/kenya-location">IAFR</a></li>
+            <li><a href="http://www.projectkakuma.com/">ProjectKakuma</a></li>
+					</ul>
         </div>
         <div class="col-12 col-sm-4 align-self-center">
-          <div class="text-center">
-            <a class="btn" href="http://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-            <a class="btn" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-            <a class="btn" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-            <a class="btn" href="mailto:"><i class="fa fa-envelope-o"></i></a>
-          </div>
+					<h5>CONTACT WITH US</h5>
+					<ul class="list-unstyled pt-4">
+						<li>
+							<i class="fas fa-map-pin"></i> 123 Road, Some city, <br>Some province, Some country<br>
+						</li>
+						<li>
+							<a href="tel:+8612345678910">
+								<i class="fa fa-phone"></i></a> +861234567891
+
+						</li>
+						<li>
+							<a href="mailto:someEmailAddress@gmail.com">
+								<i class="fa fa-envelope-o"></i></a> someEmailAddress@gmail.com
+						</li>
+					</ul>
         </div>
       </div>
+			<div class="text-center">
+					<p>© Copyright  Action Africa Help International (AAH-I) · ChinaGoingOut</p>
+			</div>
     </div>
   </footer>
 
