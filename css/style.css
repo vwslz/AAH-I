@@ -73,7 +73,7 @@ footer {
   font-size: 18px;
 }
 
-indexSection article {
+.indexSection article {
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -86,6 +86,7 @@ indexSection article {
   height: 300px;
   width: auto;
 }
+
 
 .aah-button,
 .aah-button:hover,
@@ -122,4 +123,12 @@ a:visited{
 
 footer h5{
   padding-bottom: 2 rem;
+}
+
+.aah-label{
+  background-color: #D2E89B;
+  color: #6d6d6d;
+  font-size: 20px;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
 }
