@@ -16,7 +16,7 @@ Shop:
 1. shop页面的排版整体右移，左边添加产品分类
 
 Donate:
-1，修改Single/monthly的button（还需明确具体细节）
+1. 修改Single/monthly的button（还需明确具体细节）
 
 修改日期：10/07/2019
 
