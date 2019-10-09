@@ -6,19 +6,23 @@ This is the link for [Github Page](https://vwslz.github.io/AAH-I/).
 ### Tasks
 
 General:
-1. 标题栏颜色：全白/绿色 [Yimin]
-2. 网站字体更新 - Josefin Sans [Yimin]
-3. 更新背景色，suggest #DEECBC [Yimin]
+```diff
++1. 标题栏颜色：全白/绿色 [Yimin]
++2. 网站字体更新 [Yimin] 更新成Josefin Sans
++3. 更新背景色，suggest #DEECBC [Yimin]
+```
 4. 将已有资源解压后按照现有模板依次添加 [Yimin]
-(windows解压失败，可能需要mac系统的同学。该项任务难度不大但是任务量相较其它会大一些。)
 
 Shop:
-1. shop页面的排版整体右移，左边添加产品分类
+1. shop页面的排版整体右移，左边添加产品分类 -TODO
 
 Donate:
-1. 修改Single/monthly的button（还需明确具体细节）
+```diff
+1. 修改Single/monthly的button [Yimin] 添加了paypal入口，整体界面已修改
+```
+2. Email subscription -TODO
 
-修改日期：10/07/2019
+修改日期：10/09/2019
 
 ## Version 1.0 10/05/2019
 Draft for all pages according to the provided website mockup.
