@@ -6,10 +6,10 @@ This is the link for [Github Page](https://vwslz.github.io/AAH-I/).
 ### Tasks
 
 General:
-1. 标题栏颜色：全白/绿色
-2. 网站字体更新
-3. 更新背景色，suggest #DEECBC
-4. 将已有资源解压后按照现有模板依次添加
+1. 标题栏颜色：全白/绿色 [Yimin]
+2. 网站字体更新 - Josefin Sans [Yimin]
+3. 更新背景色，suggest #DEECBC [Yimin]
+4. 将已有资源解压后按照现有模板依次添加 [Yimin]
 (windows解压失败，可能需要mac系统的同学。该项任务难度不大但是任务量相较其它会大一些。)
 
 Shop:

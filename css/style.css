@@ -1,10 +1,10 @@
 /********************* Colour reference chart****************
 aah green:        #a8cd38
-aah light green:  #D2E89B
+aah light green:  #DEECBC
 aah grey:         #6d6d6d
 */
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   padding: 165px 0px 0px;
   color: #6d6d6d;
   background-color: #f5f5f5;
@@ -19,7 +19,7 @@ footer {
 }
 
 .bg-aah {
-  background-color: #D2E89B;
+  background-color: #DEECBC;
 }
 
 .navbar {
@@ -107,7 +107,6 @@ footer {
   width: auto;
 }
 
-
 .aah-button,
 .aah-button:hover,
 .aah-button:visited{
@@ -115,7 +114,7 @@ footer {
   padding-bottom: 0.75rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: #D2E89B;
+  background-color: #DEECBC;
   color: #6d6d6d;
   font-size: 22px;
 }
@@ -131,7 +130,7 @@ footer {
 }
 
 #indexPost .row p{
-  height: 250px;
+  height: 300px;
   overflow: auto;
 }
 
@@ -146,7 +145,7 @@ footer h5{
 }
 
 .aah-label{
-  background-color: #D2E89B;
+  background-color: #DEECBC;
   color: #6d6d6d;
   font-size: 20px;
   padding-right: 1rem;
@@ -173,6 +172,6 @@ footer h5{
 }
 
 #form-email .input-email{
-  background-color: #D2E89B;
+  background-color: #DEECBC;
   text-align: left;
 }
