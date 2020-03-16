@@ -2,7 +2,23 @@
 
 This is the link for [Github Page](https://vwslz.github.io/AAH-I/).
 
-## Version 1.1 (TODO)
+## Version 1.1.0 (TODO)
+### Tasks
+
+Update for
+```diff
++1. Contact information
++2. PayPal account
++3. Move Partner and add donor in Footer
++4. Change Copyright and supporter of website and
+-5. Remove partners from Index pages
+-6. Remove Who We Are in about
+```
+
+修改日期：03/16/2020
+
+
+## Version 1.1
 ### Tasks
 
 General:
@@ -10,8 +26,8 @@ General:
 +1. 标题栏颜色：全白/绿色 [Yimin]
 +2. 网站字体更新 [Yimin] 更新成Josefin Sans
 +3. 更新背景色，suggest #DEECBC [Yimin]
-```
 4. 将已有资源解压后按照现有模板依次添加 [Yimin]
+```
 
 Shop:
 1. shop页面的排版整体右移，左边添加产品分类 -TODO

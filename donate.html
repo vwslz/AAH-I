@@ -6,7 +6,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/b94f7d9384.js"></script>
-	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
 
 	<link rel="stylesheet" href="css/style.css"/>
 
@@ -77,17 +76,17 @@
           </div> -->
           <div class="row form-group justify-content-center pt-4">
               <div id="donation-vals" class="btn-group btn-group-toggle" data-toggle="buttons">
-                <label class="btn aah-button active mr-3">
-                  <input type="radio" name="donations" id="donate-20" autocomplete="off"> $20
+                <label class="btn aah-button mr-3 active">
+                  <input type="radio" name="donations" id="donations-default" value="20"> $20
                 </label>
                 <label class="btn aah-button mx-3">
-                  <input type="radio" name="donations" id="donate-50" autocomplete="off"> $50
+                  <input type="radio" name="donations" value="50"> $50
                 </label>
                 <label class="btn aah-button mx-3">
-                  <input type="radio" name="donations" id="donate-100" autocomplete="off"> $100
+                  <input type="radio" name="donations" value="100"> $100
                 </label>
                 <label class="btn aah-button ml-3">
-                  <input type="radio" name="donations" id="donate-0" autocomplete="off" checked> Other Amount
+                  <input type="radio" name="donations" value="0"> Other Amount
                 </label>
             </div>
 					</div>
@@ -102,10 +101,10 @@
 
 				<form class="py-4" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 				<input type="hidden" name="cmd" value="_donations" />
-				<input type="hidden" name="business" value="zym19930828@gmail.com" />
+				<input type="hidden" name="business" value="aahitech@paypal.com" />
 				<input type="hidden" name="item_name" value="AAH-I donation." />
 				<input type="hidden" name="currency_code" value="USD" />
-				<input id="donation-val" type="hidden" name="amount" value="0.00" />
+				<input id="donation-val" type="hidden" name="amount" value="20.00" />
 				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 				<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 				</form>
@@ -117,44 +116,54 @@
 
 	</div>
 
-  <footer class="footer bg-aah">
+	<footer class="footer bg-aah">
     <div class="container">
       <div class="row">
 				<div class="col-4 offset-1 col-sm-3">
-          <h5>RELATED LINKS</h5>
+          <h5>DONORS</h5>
           <ul class="list-unstyled pt-4">
-            <li><a href="https://www.actionafricahelp.org/">AAH-I</a></li>
-            <li><a href="http://www.chinagoingout.org/">China House</a></li>
-            <li><a href="https://www.unhcr.org/ke/kakuma-refugee-camp">Kakuma Cefugee camp</a></li>
+            <li>
+							<a href="https://www.unwomen.org/en">
+								<img src="/img/logo-un-women.svg" class="block" height="50px" alt="UN WOMEN">
+							</a>
+						</li>
           </ul>
         </div>
 				<div class="col-7 col-sm-4">
-          <h5>OTHER PROJECTS</h5>
+          <h5>PARTNERS</h5>
 					<ul class="list-unstyled pt-4">
-            <li><a href="https://www.iafr.org/kenya-location">IAFR</a></li>
-            <li><a href="http://www.projectkakuma.com/">ProjectKakuma</a></li>
+						<li>
+							<a href="http://www.chinagoingout.org/">
+								<img src="/img/logo.png" class="block" height="40px" alt="UN WOMEN">
+							</a>
+						</li>
 					</ul>
         </div>
         <div class="col-12 col-sm-4 align-self-center">
 					<h5>CONTACT WITH US</h5>
 					<ul class="list-unstyled pt-4">
 						<li>
-							<i class="fas fa-map-pin"></i> 123 Road, Some city, <br>Some province, Some country<br>
+							<i class="fas fa-map-pin"></i> Action Africa Help Kenya,
+							<br>Kakuma Office, NCCK Compound 3
+							<br>
 						</li>
 						<li>
-							<a href="tel:+8612345678910">
-								<i class="fa fa-phone"></i></a> +861234567891
-
+								<i class="fa fa-phone"></i>
+								+254 (0)796 865925
 						</li>
 						<li>
-							<a href="mailto:someEmailAddress@gmail.com">
-								<i class="fa fa-envelope-o"></i></a> someEmailAddress@gmail.com
+								<i class="fa fa-phone"></i>
+								+254 (0)723 745375
+						</li>
+						<li>
+							<a href="mailto:kenya@actionafricahelp.org">
+								<i class="fa fa-envelope-o"></i></a> kenya@actionafricahelp.org
 						</li>
 					</ul>
         </div>
       </div>
 			<div class="text-center">
-					<p>© Copyright  Action Africa Help International (AAH-I) · ChinaGoingOut</p>
+					<p>© Copyright  Action Africa Help International. Website supported by China House.</p>
 			</div>
     </div>
   </footer>
